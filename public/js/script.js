@@ -252,7 +252,7 @@ function removeLoopAudioPlayer(){
 
 function initializeForSequence1() {
     firstUserInputing = 1;
-    var $survey = $('#survey');
+    // var $survey = $('#survey');
 
     audioPlayer.pause();
     audioPlayer.src = "sounds/merge seq.1.1.mp3";
@@ -270,14 +270,14 @@ function initializeForSequence1() {
         sound_wave.start();
 
 
-        setTimeout(function () {
-
-            $survey.survey({
-                survey: surveyVar1,
-                beforeChange: beforeChangeSubmit
-            });
-
-        }, 13000);
+        // setTimeout(function () {
+        //
+        //     $survey.survey({
+        //         survey: surveyVar1,
+        //         beforeChange: beforeChangeSubmit
+        //     });
+        //
+        // }, 13000);
 
         setTimeout(function () {
                 loopAudio(35, 50)
@@ -671,8 +671,8 @@ $('.backtomatching').on('click', function(e){
 
 function nextBird(id){
 
-    $('#survey').html('<div class="survey-form"></div>');
-    $('#survey').show();
+    // $('#survey').html('<div class="survey-form"></div>');
+    // $('#survey').show();
 
     surveyNumber = id + 1;
 
@@ -701,12 +701,12 @@ function nextBird(id){
                         rightAnswerList = ['Hoopoe', 'hoopoe', 'the hoopoe'];
                         tryingTime = 0;
 
-                        surveyTimer = setTimeout(function () {
-                            $('.survey-form').survey({
-                                survey: surveyVar,
-                                beforeChange: beforeChangeSubmit
-                            });
-                        }, 27000);
+                        // surveyTimer = setTimeout(function () {
+                        //     $('.survey-form').survey({
+                        //         survey: surveyVar,
+                        //         beforeChange: beforeChangeSubmit
+                        //     });
+                        // }, 27000);
 
                     }, 3000);
 
@@ -727,12 +727,12 @@ function nextBird(id){
                     rightAnswerList = ['Wren', 'wren', 'the wren', 'The wren'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
                 }, 3500);
 
@@ -752,12 +752,12 @@ function nextBird(id){
                     rightAnswerList = ['Jay', 'jay', 'the jay', 'The jay'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
 
                 }, 3500);
@@ -777,12 +777,12 @@ function nextBird(id){
                     rightAnswerList = ['blackbird', 'Blackbird', 'the Blackbird', 'the blackbird'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
                 }, 3500);
 
@@ -801,12 +801,12 @@ function nextBird(id){
                     rightAnswerList = ['cuckoo', 'Cuckoo', 'the Cuckoo', 'the cuckoo'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
                 }, 3500);
 
@@ -827,12 +827,12 @@ function nextBird(id){
                     rightAnswerList = ['tawny owl', 'Tawny owl', 'the Tawny owl', 'the tawny owl'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
                 }, 3500);
 
@@ -853,12 +853,12 @@ function nextBird(id){
                     rightAnswerList = ['chukar partridge', 'Chukar partridge', 'Chukar Partridge', 'the chukar partridge', 'the Chukar partridge', 'the Chukar Partridge'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
                 }, 3500);
 
@@ -879,12 +879,12 @@ birdIndex = 7;
                     rightAnswerList = ['greenfinch', 'Greenfinch', 'the Greenfinch', 'the greenfinch'];
                     tryingTime = 0;
 
-                    surveyTimer = setTimeout(function () {
-                        $('.survey-form').survey({
-                            survey: surveyVar,
-                            beforeChange: beforeChangeSubmit
-                        });
-                    }, 15500);
+                    // surveyTimer = setTimeout(function () {
+                    //     $('.survey-form').survey({
+                    //         survey: surveyVar,
+                    //         beforeChange: beforeChangeSubmit
+                    //     });
+                    // }, 15500);
 
                 }, 3500);
 
